@@ -1,49 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
+<html>
 <body>
-    <header>
-        <div>lucaDCZ</div>
-        <div>
-            <nav>
-                        <ul class="navlinks">
-                            <li><a href="#">home</a></li>
-                            <li><a href="#">project</a></li>
-                            <li><a href="#">about</a></li>
-                        </ul>
 
-                    </nav>
-                    
-        </div>
+  <form action="">
 
-        <div>
-            <img src="assets/logoipsum-406.png" class="logoimage" alt="">
+    <fieldset>
+      First name:
+      <input type="text" name="firstname"/>
+      <br/>
+      Last name:
+      <input type="text" name="lastname"/>
+      <br/>
+    </fieldset>
 
-        </div>
+    <fieldset>
+      I have a bike:
+      <input type="checkbox" name="vehicle" value="bike">
+      <br/>
+      I have an airplane:
+      <input type="checkbox" name="vehicle" value="airplane">
+      <br/>
+    </fieldset>
 
+    Male:
+    <input type="radio" name="sex" value="male">
+    <br/>
+    Female:
+    <input type="radio" name="sex" value="female" checked="checked">
 
-    </header>
-    <main class="main-container">
-        <section class="left-container" >
-            <span> Hey im lucas👋</h1>
-            <h2>
-                Fronted Developer
-            </h2>
-            <p>iam lucas,a fronted developer from italy i shall help you build beautiful websites your users will love</p>
-            <div class="left-con-btn">
-                <button>get in lucas</button>
-                <button>brose project</button>
-            </div>
-        </section>
+  </form>
 
-        <section class="right-container">
-            right
-        </section>
-    </main>
 </body>
 </html>
