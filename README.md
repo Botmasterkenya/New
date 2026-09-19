@@ -12,3 +12,4 @@ ping
 tf7fu
 office closure
 testing day
+ping
